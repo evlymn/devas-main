@@ -19,5 +19,5 @@ xhttpImagens.onreadystatechange = function() {
   }
 };
 
-xhttpImagens.open('GET', 'https://api2.devas.io/listarimagens', true);
+xhttpImagens.open('GET', 'https://devas.io/listar-imagens', true);
 xhttpImagens.send();

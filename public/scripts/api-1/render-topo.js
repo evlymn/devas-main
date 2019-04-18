@@ -7,5 +7,5 @@ xhttpTopo.onreadystatechange = function() {
   }
 };
 
-xhttpTopo.open("GET", "https://api1.devas.io/rendertopo", true);
+xhttpTopo.open("GET", "https://devas.io/render-topo", true);
 xhttpTopo.send();

@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", async function() {
           xhttpFooter2.responseText;
       }
     };
-    xhttpFooter2.open("GET", "https://api3.devas.io/renderfooter", true);
+    xhttpFooter2.open("GET", "https://devas.io/render-footer", true);
     xhttpFooter2.setRequestHeader("idToken", idToken);
     xhttpFooter2.send();
   }

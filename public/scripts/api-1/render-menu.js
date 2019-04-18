@@ -6,5 +6,5 @@ xhttpMenu.onreadystatechange = function() {
   }
 };
 
-xhttpMenu.open("GET", "https://api1.devas.io/rendermenu", true);
+xhttpMenu.open("GET", "https://devas.io/render-menu", true);
 xhttpMenu.send();
